@@ -18,6 +18,7 @@
   .bar a,.bar button{color:var(--txt);background:none;border:1px solid transparent;cursor:pointer;
        text-decoration:none;font-size:13px;padding:6px 10px;border-radius:7px;font-family:inherit}
   .bar a:hover,.bar button:hover{background:rgba(255,255,255,.08)}
+  .bar a.cur{border-color:var(--accent);color:var(--accent)}
   iframe{position:fixed;top:50px;left:0;width:100%;height:calc(100% - 50px);border:0}
 </style>
 </head>
@@ -25,6 +26,8 @@
   <div class="bar">
     <div class="title">Қора апелсин <small>— билимлар графи · 524 тушунча</small></div>
     <nav>
+      <a class="cur" href="graph.html">🖧 D3 граф</a>
+      <a href="sigma.html">✦ Sigma граф</a>
       <button onclick="(document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen())">⤢ Тўлиқ экран</button>
       <a href="https://github.com/bismailov/qora-apelsin-kb" target="_blank" rel="noopener">↗ GitHub</a>
     </nav>
