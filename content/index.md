@@ -8,6 +8,9 @@ title: "Қора апелсин — Билимлар графи (Knowledge Graph
 
 **524 тушунча (concepts) · 1005 боғланиш (links) · 21 мавзу (themes)**
 
+> [!tip] Граф кўринишлари / Graph views
+> 🖥️ **[Тўлиқ интерактив граф / Full graph](static/graph.html)** · 🔬 **[[views|Граф тадқиқотчиси / Explorer]]** · 🕸️ ўнг панелдаги мини-граф / mini-graph. Уччаласини солиштириш / compare all three → [[views]].
+
 ## 🗂️ Мавзулар / Themes
 
 - [[_COMMUNITY_Геосиёсат ва империялар (Geopolitics & empires)|Геосиёсат ва империялар (Geopolitics & empires)]] — 56
