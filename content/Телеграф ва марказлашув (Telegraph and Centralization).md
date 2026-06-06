@@ -1,0 +1,16 @@
+---
+source_file: "articles/04-iv-davlat-hokimiyat-va-geosiyosat/03-jamiyat-va-boshqaruv.md"
+type: "concept"
+community: "Бошқарув ва билвосита назорат (Governance & indirect control)"
+tags:
+  - graphify/concept
+  - graphify/INFERRED
+  - community/____Governance__indirect_control
+---
+
+# Телеграф ва марказлашув (Telegraph and Centralization)
+
+## Connections
+- [[Марказлашган ва марказлашмаган бошқарув (Centralized vs Decentralized Governance)]] - `rationale_for` [INFERRED]
+
+#graphify/concept #graphify/INFERRED #community/____Governance__indirect_control
