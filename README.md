@@ -1,17 +1,16 @@
-# Quartz v5
+# Qora apelsin — knowledge graph
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Interactive knowledge graph of the book **Qora apelsin** (524 concepts, 1005 links,
+21 themes; bilingual Uzbek/English), extracted with [Graphify](https://github.com/safishamsi/graphify).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+**Live:** https://bismailov.github.io/qora-apelsin-kb/
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Structure
+- `site/static/graph.html` — the page (header + the interactive graph below).
+- `site/static/graph-raw.html` — the self-contained Graphify graph (search, legend, click-to-highlight).
+- `site/index.html` — redirects the site root to the graph.
+- `.github/workflows/deploy.yml` — publishes `site/` to GitHub Pages on push to `main` (no build step).
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Update
+Regenerate the graph in the source project, copy the new `graph.html` over
+`site/static/graph-raw.html` (keep its `<title>`), then `git push`.
